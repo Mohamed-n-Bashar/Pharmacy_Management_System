@@ -24,7 +24,7 @@ The system is built with a modular approach, ensuring data integrity and high pe
 
 
 <p align="center">
-  <img src="Database_Diagram.png" alt="System Architecture Diagram" width="800"/>
+  <img src="Database_Diagram.png" alt="System Architecture Diagram" style="max-width:100%; height:auto;">
 </p>
 
 
@@ -143,10 +143,9 @@ The system provides ready-to-use analytical views and procedures for inventory, 
 
 ## 👤 Contact
 
-| Platform | Profile |
-| :--- | :--- |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" height="20"> | [Mohamed Bashar](https://www.linkedin.com/in/mohamed-nabil-bashar) |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="20" height="20"> | [Mohamed Bashar](https://github.com/Mohamed-n-Bashar) |
+- **LinkedIn:** [Mohamed Bashar](https://www.linkedin.com/in/mohamed-nabil-bashar)  
+- **GitHub:** [Mohamed Bashar](https://github.com/Mohamed-n-Bashar)
 
 ---
+
 *If you find this project useful, don't forget to give it a ⭐ on GitHub!*
