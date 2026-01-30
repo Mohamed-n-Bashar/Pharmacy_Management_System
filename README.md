@@ -6,8 +6,6 @@ scalable SQL Server database engine designed for modern pharmacy chains. This sy
 
 ## 🏗️ Project Architecture & Modules
 
-The system is built with a modular approach, ensuring data integrity and high performance under heavy transaction loads.
-
 ### 📂 File Structure Overview
 
 | File / Folder | Responsibility |
