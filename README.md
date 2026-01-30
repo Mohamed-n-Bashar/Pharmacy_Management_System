@@ -22,7 +22,11 @@ The system is built with a modular approach, ensuring data integrity and high pe
 | **`Analytical Queries.sql`**| BI Layer: procedures and views for sales trends and branch performance analysis. |
 | **`Virtual Data.sql`** | Seeding: Scripts to populate the database with realistic testing data. |
 
----
+
+<p align="center">
+  <img src="Database_Diagram.png" alt="System Architecture Diagram" width="800"/>
+</p>
+
 
 ## 📂 Data Dictionary & System Relationships
 
@@ -100,8 +104,8 @@ This section details the relational structure and the logic behind each module.
 - **Employee Management:** Track employee performance and KPI reports.  
 - **Analytical Insights:** Ready-to-use views and procedures for reporting and decision-making.
 
+<!--
 ---
-
 ## 📊 Analytical Insights
 
 The system provides ready-to-use analytical views and procedures for inventory, sales, finance, and employee performance:
@@ -134,7 +138,7 @@ The system provides ready-to-use analytical views and procedures for inventory, 
 ### **Employee Performance**
 - **vw_EmployeeActivity:** Employee KPIs (invoices issued, total amounts in/out).
 
-
+-->
 ---
 
 ## 👤 Contact
