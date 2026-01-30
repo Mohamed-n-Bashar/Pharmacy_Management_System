@@ -3,6 +3,9 @@
 scalable SQL Server database engine designed for modern pharmacy chains. This system implements pharmaceutical business logic, multi-branch inventory synchronization, and financial auditing.
 
 ---
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Mohamed-n-Bashar.Pharmacy_Management_System" alt="Visitors Badge">
+</p>
 
 ## 🏗️ Project Architecture & Modules
 
