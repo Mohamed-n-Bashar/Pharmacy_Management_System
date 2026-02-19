@@ -7,9 +7,9 @@ scalable SQL Server database engine designed for modern pharmacy chains. This sy
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Mohamed-n-Bashar.Pharmacy_Management_System" alt="Visitors Badge">
 </p>
 
-## 🏗️ Project Architecture & Modules
+## Project Architecture & Modules
 
-### 📂 File Structure Overview
+### File Structure Overview
 
 | File / Folder | Responsibility |
 | :--- | :--- |
@@ -29,7 +29,7 @@ scalable SQL Server database engine designed for modern pharmacy chains. This sy
 </p>
 
 
-## 📂 Data Dictionary & System Relationships
+## Data Dictionary & System Relationships
 
 This section details the relational structure and the logic behind each module.
 
@@ -42,7 +42,7 @@ This section details the relational structure and the logic behind each module.
 | **`Employees`** | Staff registry & shifts. | Linked to `Branches`. Responsible for `Invoices` & `Transactions`. |
 | **`Safes`** | Cash containers (Main/Till). | Linked to `Branches`. Balance is affected by `Transactions`. |
 
-### 💊 2. Advanced Product Module
+### 2. Advanced Product Module
 *A granular approach to pharmaceutical data, supporting molecular-level substitution.*
 
 | Table | Purpose | Relationships & Logic |
@@ -55,7 +55,7 @@ This section details the relational structure and the logic behind each module.
 | **`Products`** | The central catalog. | Junction point for Manufacturers, Categories, and Forms. |
 | **`Product_Ingredients`**| Scientific mapping. | **Junction Table:** Many-to-Many between `Products` & `Ingredients`. |
 
-### 📦 3. Inventory & Batches
+### 3. Inventory & Batches
 *Handling the lifecycle of stock from manufacturing to the pharmacy shelf.*
 
 | Table | Purpose | Relationships & Logic |
@@ -65,7 +65,7 @@ This section details the relational structure and the logic behind each module.
 | **`Internal_Transfers`**| Cross-branch logistics. | Records "From" and "To" branches with status tracking. |
 | **`Stock_Movements`** | Immutable Audit Log. | Tracks Before/After quantities for every transaction. |
 
-### 🧾 4. Unified EERD Invoicing & Movements
+### 4. Unified EERD Invoicing & Movements
 *The core engine handling Sales, Purchases, and Returns in a centralized flow.*
 
 | Table | Purpose | Relationships & Logic |
@@ -75,7 +75,7 @@ This section details the relational structure and the logic behind each module.
 | **`Returns_Items`** | Reverse logistics. | Tracks returns against original sales (Self-referencing). |
 | **`Prescriptions`** | Medical documentation. | Linked to `SalesInvoices` for controlled drug tracking. |
 
-### 🤝 5. Procurement (Supply Chain)
+### 5. Procurement (Supply Chain)
 *Managing vendor relationships and the pre-purchase order lifecycle.*
 
 | Table | Purpose | Relationships & Logic |
@@ -85,7 +85,7 @@ This section details the relational structure and the logic behind each module.
 | **`Purchase_Order_Items`**| Order line items. | Linked to `Products` (Items requested but not yet received). |
 | **`Purchase_Invoices`**| Received shipments. | **Sub-type of Invoices:** Links `Invoices` to `Purchase_Orders`. |
 
-### 💰 6. Sales, Clients & Financials
+### 6. Sales, Clients & Financials
 *Tracking customer debt and every penny moving in or out of the safes.*
 
 | Table | Purpose | Relationships & Logic |
@@ -96,7 +96,7 @@ This section details the relational structure and the logic behind each module.
 
 ---
 
-## 📌 Features
+## Features
 
 - **Inventory Management:** Track stock levels, batches, expiry dates, and slow-moving products.  
 - **Sales & Returns:** Manage sales invoices, returns, and top-selling products.  
@@ -107,7 +107,7 @@ This section details the relational structure and the logic behind each module.
 
 <!--
 ---
-## 📊 Analytical Insights
+## Analytical Insights
 
 The system provides ready-to-use analytical views and procedures for inventory, sales, finance, and employee performance:
 
@@ -142,7 +142,7 @@ The system provides ready-to-use analytical views and procedures for inventory, 
 -->
 ---
 
-## 👤 Contact
+## Contact
 
 - **LinkedIn:** [Mohamed Bashar](https://www.linkedin.com/in/mohamed-nabil-bashar)  
 - **GitHub:** [Mohamed Bashar](https://github.com/Mohamed-n-Bashar)
