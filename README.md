@@ -1,4 +1,4 @@
-# 💊 Pharmacy Management System (Simple ERP)
+# Pharmacy Management System (Simple ERP)
 
 scalable SQL Server database engine designed for modern pharmacy chains. This system implements pharmaceutical business logic, multi-branch inventory synchronization, and financial auditing.
 
