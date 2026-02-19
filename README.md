@@ -33,7 +33,7 @@ scalable SQL Server database engine designed for modern pharmacy chains. This sy
 
 This section details the relational structure and the logic behind each module.
 
-### 🏛️ 1. Organization
+### 1. Organization
 *Manages physical pharmacy locations, staff roles, and financial containers.*
 
 | Table | Purpose | Relationships & Logic |
